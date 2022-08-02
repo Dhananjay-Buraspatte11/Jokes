@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    height: 150px;
+    border: 20px solid rgb(0, 100, 128);
+    padding: 80px 50px 90px 60px;
+    margin: 60px 20px 30px 250px;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    background-color: red,orange,yellow,green,blue,indigo,violet;
+    background-image: radial-gradient(red, yellow, green);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+  
+}
+
+
+button {
+    transition-duration: 0.4s;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+   
+    margin-left: 380px;
+    border: 4px solid rgb(34, 181, 194);
+    
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  button:hover {
+    background-color: #704789;
+    color: white;
+    width: 100px;
+  height: 100px;
+  transform: rotate(360deg);
+  }
+  h2{
+    font-family: fantasy;
+    align-items: center;
+    text-align: center;
+    
+  }
+  #joke{
+    
+    color: black;
+    font-size: 20px;
+    /* font-family: fantasy ; */
+    
+  }
